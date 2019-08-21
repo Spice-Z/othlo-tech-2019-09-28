@@ -59,3 +59,8 @@
 .button-nope {
   background-color: gray;
 }
+
+.card-like-swipe {
+  transform: translate(100px);
+  opacity: 0.2;
+}

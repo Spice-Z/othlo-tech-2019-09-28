@@ -10,13 +10,15 @@ function App() {
       name: "Yugo Spice Ogura",
       age: 23,
       image:
-        "https://images.unsplash.com/photo-1563170423-741125661ae8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=668&q=80"
+        "https://images.unsplash.com/photo-1563170423-741125661ae8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=668&q=80",
+      isSwiped: false
     },
     {
       name: "Yugo BOXP Ogura",
       age: 26,
       image:
-        "https://images.unsplash.com/photo-1565385320868-2d6aa499b93d?ixlib=rb-1.2.1&auto=format&fit=crop&w=595&q=80"
+        "https://images.unsplash.com/photo-1565385320868-2d6aa499b93d?ixlib=rb-1.2.1&auto=format&fit=crop&w=595&q=80",
+      isSwiped: true
     }
   ];
   return (
@@ -28,6 +30,7 @@ function App() {
             name={user.name}
             age={user.age}
             image={user.image}
+            isSwiped={user.isSwiped}
           />
         ))}
       </div>
