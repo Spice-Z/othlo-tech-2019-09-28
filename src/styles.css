@@ -5,14 +5,22 @@
   height: 100%;
 }
 
+.card-container {
+  position: relative;
+  width: 300px;
+  height: 450px;
+  margin: auto;
+}
+
 .card {
   margin: auto;
   width: 300px;
-  height: auto;
+  height: 450;
   border-radius: 8px;
   display: flex;
   flex-direction: column;
   box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.04), 0 12px 20px 0 rgba(0, 0, 0, 0.12);
+  position: absolute;
 }
 
 .image {
@@ -22,7 +30,7 @@
 }
 
 .buttons {
-  margin-top: 16px;
+  margin-top: 80px;
   display: flex;
   justify-content: center;
 }
