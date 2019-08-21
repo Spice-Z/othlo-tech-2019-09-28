@@ -22,8 +22,13 @@ function App() {
   return (
     <div className="App">
       <div className="card-container">
-        {users.map(user => (
-          <Card name={user.name} age={user.age} image={user.image} />
+        {users.map((user, index) => (
+          <Card
+            key={index}
+            name={user.name}
+            age={user.age}
+            image={user.image}
+          />
         ))}
       </div>
       <div className="buttons">
