@@ -20,6 +20,10 @@ function App() {
           <span>({user.age})</span>
         </p>
       </div>
+      <div className="buttons">
+        <button className="button-nope">Nope</button>
+        <button className="button-like">Like</button>
+      </div>
     </div>
   );
 }

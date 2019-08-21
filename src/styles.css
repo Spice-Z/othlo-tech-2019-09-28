@@ -20,3 +20,32 @@
   border-radius: 8px 8px 0 0;
   object-fit: cover;
 }
+
+.buttons {
+  margin-top: 16px;
+  display: flex;
+  justify-content: center;
+}
+
+.button-like,
+.button-nope {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  padding: 0;
+  appearance: none;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.04), 0 12px 20px 0 rgba(0, 0, 0, 0.12);
+}
+
+.button-like {
+  background-color: pink;
+  margin-left: 30px;
+}
+
+.button-nope {
+  background-color: gray;
+}
