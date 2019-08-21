@@ -22,8 +22,9 @@ function App() {
   return (
     <div className="App">
       <div className="card-container">
-        <Card name={users[0].name} age={users[0].age} image={users[0].image} />
-        <Card name={users[1].name} age={users[1].age} image={users[1].image} />
+        {users.map(user => (
+          <Card name={user.name} age={user.age} image={user.image} />
+        ))}
       </div>
       <div className="buttons">
         <button className="button-nope">Nope</button>
