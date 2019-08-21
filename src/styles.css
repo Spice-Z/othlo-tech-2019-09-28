@@ -5,14 +5,18 @@
   height: 100%;
 }
 
-/* .card {
+.card {
   margin: auto;
   width: 300px;
   height: auto;
-} */
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.04), 0 12px 20px 0 rgba(0, 0, 0, 0.12);
+}
 
 .image {
-  width: 300px;
-  height: 500px;
-  object-fit: contain;
+  width: 100%;
+  border-radius: 8px 8px 0 0;
+  object-fit: cover;
 }
