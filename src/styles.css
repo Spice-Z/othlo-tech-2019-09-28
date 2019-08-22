@@ -22,6 +22,12 @@
   box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.04), 0 12px 20px 0 rgba(0, 0, 0, 0.12);
   position: absolute;
   background-color: #fff;
+  transition: all 1s ease-in-out;
+}
+
+.card-like-swipe {
+  transform: translate(400px) rotate(50deg);
+  opacity: 0;
 }
 
 .image {
@@ -58,9 +64,4 @@
 
 .button-nope {
   background-color: gray;
-}
-
-.card-like-swipe {
-  transform: translate(100px);
-  opacity: 0.2;
 }
