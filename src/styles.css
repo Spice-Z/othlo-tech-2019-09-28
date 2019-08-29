@@ -22,10 +22,10 @@
   box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.04), 0 12px 20px 0 rgba(0, 0, 0, 0.12);
   position: absolute;
   background-color: #fff;
-  transition: all 1s ease-in-out;
 }
 
 .card-like-swipe {
+  transition: all 1s ease-in-out;
   transform: translate(400px) rotate(50deg);
   opacity: 0;
 }
