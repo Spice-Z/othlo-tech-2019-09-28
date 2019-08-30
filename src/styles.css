@@ -15,13 +15,15 @@
 .card {
   margin: auto;
   width: 300px;
-  height: 450;
+  height: 500px;
   border-radius: 8px;
   display: flex;
   flex-direction: column;
+  justify-content: flex-end;
   box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.04), 0 12px 20px 0 rgba(0, 0, 0, 0.12);
   position: absolute;
   background-color: #fff;
+  background-size: cover;
 }
 
 .card-like-swipe {
@@ -58,10 +60,43 @@
 }
 
 .button-like {
-  background-color: pink;
+  background-color: #ff8f87;
   margin-left: 30px;
 }
 
 .button-nope {
   background-color: gray;
+}
+
+.info {
+  background: rgba(0, 0, 0, 0.2);
+  padding: 8px;
+}
+
+.name {
+  color: #fff;
+  text-align: left;
+  font-size: 18px;
+  padding-left: 8px;
+}
+
+.age {
+  margin-left: 8px;
+}
+
+.communities {
+  background: #fff;
+  text-align: left;
+  padding: 8px;
+  margin-top: 8px;
+  border-radius: 8px;
+}
+
+.community {
+  font-size: 14px;
+  margin-right: 4px;
+  background-color: gray;
+  color: whitesmoke;
+  padding: 6px;
+  border-radius: 8px;
 }

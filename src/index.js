@@ -11,35 +11,40 @@ function App() {
       age: 23,
       image:
         "https://images.unsplash.com/photo-1563170423-741125661ae8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=668&q=80",
-      isSwiped: false
+      isSwiped: false,
+      communities: ["味噌煮込み", "手羽先"]
     },
     {
       name: "Yugo BOXPs Ogura",
       age: 26,
       image:
         "https://images.unsplash.com/photo-1565385320868-2d6aa499b93d?ixlib=rb-1.2.1&auto=format&fit=crop&w=595&q=80",
-      isSwiped: false
+      isSwiped: false,
+      communities: ["小倉クリーム唐揚げ"]
     },
     {
       name: "Yugo Datch Ogura",
       age: 26,
       image:
         "https://images.unsplash.com/photo-1532910404247-7ee9488d7292?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=582&q=80",
-      isSwiped: false
+      isSwiped: false,
+      communities: []
     },
     {
       name: "Yugo OT Ogura",
       age: 26,
       image:
-        "https://images.unsplash.com/photo-1532910404247-7ee9488d7292?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=582&q=80",
-      isSwiped: false
+        "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=668&q=80",
+      isSwiped: false,
+      communities: ["味噌煮込み", "手羽先"]
     },
     {
       name: "Yugo Melo Ogura",
       age: 26,
       image:
         "https://images.unsplash.com/photo-1532910404247-7ee9488d7292?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=582&q=80",
-      isSwiped: false
+      isSwiped: false,
+      communities: ["味噌煮込み", "手羽先"]
     }
   ]);
 
@@ -67,6 +72,7 @@ function App() {
             name={nextPartner.name}
             age={nextPartner.age}
             image={nextPartner.image}
+            communities={nextPartner.communities}
             isSwiped={nextPartner.isSwiped}
           />
         ) : null}
@@ -75,6 +81,7 @@ function App() {
             name={currentPartner.name}
             age={currentPartner.age}
             image={currentPartner.image}
+            communities={currentPartner.communities}
             isSwiped={currentPartner.isSwiped}
           />
         ) : null}
