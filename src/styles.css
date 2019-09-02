@@ -60,43 +60,50 @@
 }
 
 .button-like {
-  background-color: #ff8f87;
   margin-left: 30px;
 }
 
-.button-nope {
-  background-color: gray;
-}
-
 .info {
-  background: rgba(0, 0, 0, 0.2);
-  padding: 8px;
+  background: linear-gradient(
+    -180deg,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(0, 0, 0, 0.5) 100%
+  );
+  padding: 16px 12px;
+  border-radius: 0 16px 16px;
 }
 
 .name {
   color: #fff;
   text-align: left;
-  font-size: 18px;
   padding-left: 8px;
+  font-size: 16px;
 }
 
-.age {
+.age,
+.prefecture,
+.percent {
   margin-left: 8px;
+}
+
+.percent {
+  font-size: 12px;
 }
 
 .communities {
   background: #fff;
   text-align: left;
-  padding: 8px;
-  margin-top: 8px;
+  padding: 12px;
+  margin-top: 10px;
   border-radius: 8px;
+  font-size: 12px;
 }
 
 .community {
-  font-size: 14px;
   margin-right: 4px;
   background-color: gray;
-  color: whitesmoke;
-  padding: 6px;
-  border-radius: 8px;
+  color: #00c4cc;
+  background-color: rgba(83, 183, 187, 0.1);
+  padding: 4px 12px;
+  border-radius: 12px;
 }
